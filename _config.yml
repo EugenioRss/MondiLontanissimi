@@ -25,11 +25,3 @@ cloudinary:
   verbose: false
 
 
-picture:
-  source: images/
-  output: resized_images/
-  baseurl_key: baseurl_root
-  ignore_baseurl: true
-  relative_url: false
-  suppress_warnings: true
-
