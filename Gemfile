@@ -6,5 +6,5 @@ gem 'jekyll'
 
 group :jekyll_plugins do
   gem 'jekyll-cloudinary'
-  gem 'jekyll-markdown-responsive-image', github: 'tadamcz/jekyll-markdown-responsive-image'
+  gem 'jekyll_picture_tag', '~> 2.0'
 end
