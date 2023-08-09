@@ -10,10 +10,17 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Millennial"
-description:	       "a minimalist Jekyll theme for running a blog or publication"
-author:              "Paul Le"
+title:		           "Mondi Lontanissimi"
+description:	       "Guida galattica per chi ama viaggiare"
+author:              "Chiara & Eugenio"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
+
+cloudinary:
+  cloud_name: eugenio-rossini
+  only_prod: false
+  origin_url: ''
+  verbose: false
+
